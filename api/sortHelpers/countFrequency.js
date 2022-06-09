@@ -10,4 +10,4 @@ module.exports = (input) => {
     store[word] = store[word] + 1 || 1;
   });
   return store;
-}
+};
