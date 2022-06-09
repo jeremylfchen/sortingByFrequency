@@ -1,3 +1,3 @@
-module.exports = (input) => {
-  return [];
-}
+const { quickSort } = require('./quickSort');
+
+module.exports = quickSort;
