@@ -1,4 +1,4 @@
-const { quickSort } = require('../api/sortHelpers/quickSort');
+const { quickSort } = require('../functions/sortHelpers/quickSort');
 
 describe('quickSort', () => {
   describe('when given an empty array as input', () => {

@@ -5,7 +5,7 @@ const pivot = (arr, start, end) => {
       pointer = start - 1;
 
   for (let i = start; i < end; i++) {
-    if (arr[i][1] < pivot[1] || (arr[i][1] === pivot[1] && arr[i][0].localeCompare(pivot[0]) > 0)) {
+    if (arr[i][1] > pivot[1] || (arr[i][1] === pivot[1] && arr[i][0].localeCompare(pivot[0]) < 0)) {
       pointer++;
       swap(arr, pointer, i);
     }
@@ -29,7 +29,6 @@ const quickSort = (arr) => {
     return false;
   }
   quickSortHelper(arr, 0, arr.length - 1);
-  arr.reverse();
   return arr;
 };
 

@@ -1,4 +1,4 @@
-const countFrequency = require('../api/sortHelpers/countFrequency');
+const countFrequency = require('../functions/sortHelpers/countFrequency');
 
 describe('countFrequency', () => {
   describe('when given an empty array', () => {

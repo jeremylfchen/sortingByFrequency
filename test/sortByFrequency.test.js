@@ -1,4 +1,4 @@
-const sortByFrequency = require('../api/sortByFrequency');
+const sortByFrequency = require('../functions/sortByFrequency');
 
 describe('sortByFrequency', () => {
   describe('when given an empty string', () => {
